@@ -250,225 +250,225 @@ body {
   }
 }
 
-@media (max-width: 1100px) {
-  .btn {
-    font-size: 20px;
-  }
+// @media (max-width: 1100px) {
+//   .btn {
+//     font-size: 20px;
+//   }
 
-  .header {
-    &__link {
-      font-size: 22px;
-    }
-  }
+//   .header {
+//     &__link {
+//       font-size: 22px;
+//     }
+//   }
 
-  .promo {
-    &__after {
-      width: 300px;
-      height: 300px;
-      margin-top: 20px;
-    }
-    &__title {
-      font-size: 120px;
-      margin-bottom: 25px;
-    }
-    &__subtitle {
-      margin-bottom: 0;
-    }
-    &__image {
-      position: absolute;
-      width: 300px;
-      top: 30px;
-      left: 30px;
-      object-fit: contain;
-    }
-  }
+//   .promo {
+//     &__after {
+//       width: 300px;
+//       height: 300px;
+//       margin-top: 20px;
+//     }
+//     &__title {
+//       font-size: 120px;
+//       margin-bottom: 25px;
+//     }
+//     &__subtitle {
+//       margin-bottom: 0;
+//     }
+//     &__image {
+//       position: absolute;
+//       width: 300px;
+//       top: 30px;
+//       left: 30px;
+//       object-fit: contain;
+//     }
+//   }
 
-  .about {
-    &__img {
-      width: 350px;
-      margin-left: 40px;
-    }
-  }
+//   .about {
+//     &__img {
+//       width: 350px;
+//       margin-left: 40px;
+//     }
+//   }
 
-  .service {
-    &__cards {
-      margin-bottom: 70px;
-    }
-    &__card {
-      margin-left: 35px;
-    }
-    &__img {
-      width: 200px;
-    }
-  }
+//   .service {
+//     &__cards {
+//       margin-bottom: 70px;
+//     }
+//     &__card {
+//       margin-left: 35px;
+//     }
+//     &__img {
+//       width: 200px;
+//     }
+//   }
 
-  .client {
-    &__title {
-      margin-bottom: 40px;
-    }
-    &__img {
-      width: 300px;
-    }
-  }
-}
+//   .client {
+//     &__title {
+//       margin-bottom: 40px;
+//     }
+//     &__img {
+//       width: 300px;
+//     }
+//   }
+// }
 
-@media (max-width: 970px) {
-  .promo {
-    &__pre {
-      margin-left: 100px;
-    }
-  }
+// @media (max-width: 970px) {
+//   .promo {
+//     &__pre {
+//       margin-left: 100px;
+//     }
+//   }
 
-  .client {
-    &__photos {
-      display: grid;
-      grid-template-columns: auto;
-      margin-left: 35%;
-    }
-    &__img {
-      margin-bottom: 20px;
-    }
-  }
+//   .client {
+//     &__photos {
+//       display: grid;
+//       grid-template-columns: auto;
+//       margin-left: 35%;
+//     }
+//     &__img {
+//       margin-bottom: 20px;
+//     }
+//   }
 
-  .footer {
-    &__img {
-      margin-top: 400px;
-    }
-  }
-}
+//   .footer {
+//     &__img {
+//       margin-top: 400px;
+//     }
+//   }
+// }
 
-@media (max-width: 880px) {
-  .promo {
-    &title {
-      font-size: 90px;
-    }
-    &__subtitle {
-      font-size: 25px;
-    }
-  }
+// @media (max-width: 880px) {
+//   .promo {
+//     &title {
+//       font-size: 90px;
+//     }
+//     &__subtitle {
+//       font-size: 25px;
+//     }
+//   }
 
-  .about {
-    &__title {
-      font-size: 52px;
-    }
-    &__content {
-      font-size: 16px;
-    }
-    &__img {
-      width: 270px;
-    }
-  }
+//   .about {
+//     &__title {
+//       font-size: 52px;
+//     }
+//     &__content {
+//       font-size: 16px;
+//     }
+//     &__img {
+//       width: 270px;
+//     }
+//   }
 
-  .service {
-    &__content {
-      width: 200px;
-    }
-  }
+//   .service {
+//     &__content {
+//       width: 200px;
+//     }
+//   }
 
-  .footer__img {
-    margin-top: 440px;
-  }
-}
+//   .footer__img {
+//     margin-top: 440px;
+//   }
+// }
 
-@media (max-width: 880px) {
-  .promo__title {
-    font-size: 100px;
-  }
-  .service {
-    &__cards {
-      grid-template-columns: auto;
-    }
-    &__card {
-      margin-left: 35%;
-      margin-bottom: 40px;
-    }
-  }
+// @media (max-width: 880px) {
+//   .promo__title {
+//     font-size: 100px;
+//   }
+//   .service {
+//     &__cards {
+//       grid-template-columns: auto;
+//     }
+//     &__card {
+//       margin-left: 35%;
+//       margin-bottom: 40px;
+//     }
+//   }
 
-  .client {
-    &__photos {
-      display: grid;
-      grid-template-columns: auto;
-    }
-  }
+//   .client {
+//     &__photos {
+//       display: grid;
+//       grid-template-columns: auto;
+//     }
+//   }
 
-  .footer {
-    &__img {
-      display: none;
-    }
-  }
-}
+//   .footer {
+//     &__img {
+//       display: none;
+//     }
+//   }
+// }
 
-@media (max-width: 780px) {
-  .about {
-    &__img {
-      display: none;
-    }
-    &__info {
-      margin: 0 auto;
-    }
-  }
-}
+// @media (max-width: 780px) {
+//   .about {
+//     &__img {
+//       display: none;
+//     }
+//     &__info {
+//       margin: 0 auto;
+//     }
+//   }
+// }
 
-@media (max-width: 560px) {
-  .promo {
-    &__after {
-      display: none;
-    }
-    &__image {
-      display: none;
-    }
-  }
+// @media (max-width: 560px) {
+//   .promo {
+//     &__after {
+//       display: none;
+//     }
+//     &__image {
+//       display: none;
+//     }
+//   }
 
-  .service {
-    &__card {
-      margin-left: 25%;
-    }
-  }
+//   .service {
+//     &__card {
+//       margin-left: 25%;
+//     }
+//   }
 
-  .client {
-    &__photos {
-      margin-left: 25%;
-      margin-bottom: 70px;
-    }
-  }
+//   .client {
+//     &__photos {
+//       margin-left: 25%;
+//       margin-bottom: 70px;
+//     }
+//   }
 
-  .contact {
-    &__title {
-      font-size: 40px;
-    }
-    &__info {
-      margin-left: 20%;
-    }
-  }
+//   .contact {
+//     &__title {
+//       font-size: 40px;
+//     }
+//     &__info {
+//       margin-left: 20%;
+//     }
+//   }
 
-  .title {
-    font-size: 50px;
-  }
-}
+//   .title {
+//     font-size: 50px;
+//   }
+// }
 
-@media (max-width: 400px) {
-  .header {
-    &__link {
-      font-size: 16px;
-    }
-  }
+// @media (max-width: 400px) {
+//   .header {
+//     &__link {
+//       font-size: 16px;
+//     }
+//   }
 
-  .promo {
-    &__title {
-      font-size: 70px;
-    }
-  }
+//   .promo {
+//     &__title {
+//       font-size: 70px;
+//     }
+//   }
 
-  .about {
-    &__title {
-      font-size: 40px;
-    }
-    &__content {
-      font-size: 12px;
-    }
-  }
+//   .about {
+//     &__title {
+//       font-size: 40px;
+//     }
+//     &__content {
+//       font-size: 12px;
+//     }
+//   }
 
-  .btn {
-    font-size: 16px;
-  }
-}
+//   .btn {
+//     font-size: 16px;
+//   }
+// }
